@@ -11,9 +11,8 @@ services:
     ports:
       - 8080:8080
      environment:
-       - Go_Proxy_BingAI_SOCKS_URL=45.63.49.3:5555
-       - Go_Proxy_BingAI_SOCKS_USER=socks5
-       - Go_Proxy_BingAI_SOCKS_PWD=socks5
+       - Go_Proxy_BingAI_SOCKS_URL=184.185.2.12:4145
+     
 
   
 #   go-proxy-bingai:
